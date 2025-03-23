@@ -1,44 +1,36 @@
-<<<<<<< HEAD
-# Realtime_spotify_clone
-Developed a full-stack music streaming platform inspired by Spotify. Implemented user authentication with Clerk, integrated Google login, and enabled song uploads with secure storage. Built with React, TypeScript, Node.js, and MongoDB.  
-=======
-<h1 align="center">Realtime Spotify Application ✨</h1>
+# 🎵 Real-time Spotify Clone
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A **real-time music streaming app** inspired by Spotify, built with **React, Node.js, WebSockets**, and the **Spotify API**. Stream music, search for songs, and collaborate on playlists in real time! 🚀🎧
 
-[Watch Full Tutorial on Youtube](https://youtu.be/4sbklcQ0EXc)
+---
 
-About This Course:
+## ⚡ Features
+✅ **Real-time music playback** with WebSockets  
+✅ **Spotify API integration** for fetching songs, albums & artists  
+✅ **Live playlist collaboration** (multiple users can update playlists)  
+✅ **User authentication** (Login with Spotify)  
+✅ **Responsive UI** for mobile & desktop  
 
--   🎸 Listen to music, play next and previous songs
--   🔈 Update the volume with a slider
--   🎧 Admin dashboard to create albums and songs
--   💬 Real-time Chat App integrated into Spotify
--   👨🏼‍💼 Online/Offline status
--   👀 See what other users are listening to in real-time
--   📊 Aggregate data for the analytics page
--   🚀 And a lot more...
+---
 
-### Setup .env file in _backend_ folder
+## 🛠️ Tech Stack
+**Frontend:** React.js, Tailwind CSS, WebSockets  
+**Backend:** Node.js, Express.js, MongoDB  
+**Authentication:** Spotify OAuth  
+**Real-time Communication:** Socket.io  
 
-```bash
-PORT=...
-MONGODB_URI=...
-ADMIN_EMAIL=...
-NODE_ENV=...
+---
 
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
+## 🚀 Getting Started
 
+### 📌 Prerequisites
+- Node.js (v18+ recommended)
+- A **Spotify Developer Account** ([Sign up here](https://developer.spotify.com/dashboard))
 
-CLERK_PUBLISHABLE_KEY=...
-CLERK_SECRET_KEY=...
-```
+---
 
-### Setup .env file in _frontend_ folder
-
-```bash
-VITE_CLERK_PUBLISHABLE_KEY=...
-```
->>>>>>> f2e1243 (Fresh commit)
+### 🖥️ **Backend Setup**
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yash6rana6/Realtime_spotify_clone.git
+   cd Realtime_spotify_clone
