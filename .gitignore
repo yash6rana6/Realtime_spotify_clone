@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node Modules
+node_modules/
+dist/
+.next/  # Next.js build folder
+out/    # Next.js static export
+.cache/ # Caching directory
+
+# Build Files
+build/
+public/build/
+temp/
+tmp/
+coverage/  # Code coverage reports
+
+# Editor & OS-Specific Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Git Config & Dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Spotify API Credentials (if any stored)
+spotify_auth.json
+
+# Backend Specific
+__pycache__/
+database.sqlite
+dump.rdb  # Redis dump
+uploads/
